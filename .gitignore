@@ -1,0 +1,80 @@
+# ----------------------------------------------------------------------------
+# Dart / Flutter 相關
+# ----------------------------------------------------------------------------
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
+# 如果你使用 flutter_rust_bridge 或類似工具，可能會產生此資料夾
+# .crate-tarballs/
+
+# ----------------------------------------------------------------------------
+# Android 相關 (對於 Java 開發者應該很熟悉)
+# ----------------------------------------------------------------------------
+.gradle/
+local.properties
+**/android/**/generated/
+**/android/app/src/main/res/generated/
+**/android/captures/
+**/android/gradle-wrapper.jar
+**/android/build/
+**/android/.gradle/
+
+# 簽署金鑰 (極重要：切勿上傳私鑰)
+*.keystore
+*.jks
+*.p12
+*.pem
+*.der
+
+# ----------------------------------------------------------------------------
+# iOS 相關
+# ----------------------------------------------------------------------------
+**/ios/DerivedData/
+**/ios/Pods/
+**/ios/.generated/
+**/ios/.tags/
+**/ios/build/
+**/ios/Runner.xcworkspace/xcuserdata/
+**/ios/Runner.xcworkspace/xcshareddata/xcschemes/
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/.pivotal/
+
+# ----------------------------------------------------------------------------
+# 編輯器與 IDE (VS Code, IntelliJ, Android Studio)
+# ----------------------------------------------------------------------------
+.workspace
+.vscode/
+# 如果你希望團隊共享 VS Code 的建議擴充功能，可以註解掉下一行
+# !.vscode/extensions.json
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+
+.idea/
+*.iml
+*.iws
+.project
+.classpath
+.settings/
+
+# ----------------------------------------------------------------------------
+# 作業系統相關
+# ----------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------------------------------------------------------------
+# 其他
+# ----------------------------------------------------------------------------
+# 如果你有使用環境變數檔案 (如 flutter_dotenv)
+.env
+.env.*
