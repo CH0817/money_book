@@ -1,19 +1,9 @@
-import 'dart:developer';
-
 import 'package:decimal/decimal.dart';
-import 'package:device_preview/device_preview.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
 void main() {
-  runApp(
-    // 在開發環境中啟用 DevicePreview
-    DevicePreview(
-      // 在釋出（Release）模式下禁用 DevicePreview
-      enabled: !const bool.fromEnvironment('dart.vm.product'),
-      builder: (context) => MyApp(),
-    ),
-  );
+  runApp(MyApp());
 }
 
 class MyApp extends StatefulWidget {
